@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Animals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+button{
+    padding: 5px 10px;
+    background-color: lightgreen;
+    border: solid 1px forestgreen;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px;
+    width: 30%;
+    margin-top:50px ;
+    color: rgb(10, 81, 10);
+}
+
+.animal_list{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
